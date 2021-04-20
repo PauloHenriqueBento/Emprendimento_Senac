@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/geral.css">
+
+    <title>Contato</title>
+</head>
+<body>
+    <body>
+        <header>
+            <div class="bar">
+                <div class="container">
+                    <a href="/html/index.html">
+                        <img src="/img/logo_senac.png" alt="logo_senac" class="logo">
+                    </a>
+        
+                    <nav>
+                        <a href="/html/index.html">Início</a>
+                        <a href="/html/sobre.html">Sobre</a>
+                        <a href="/html/contato.html">Contato</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="banner"></div>
+        </header>
+
+        <main class="container">
+            <section>
+                <h2 class="subtitulo">Reserve já o seu</h2>
+                <form>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Primeiro nome" required>
+    
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" placeholder="Sobrenome" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="exemplo@email.com.br" required>
+    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(99) 99999-9999" required>
+    
+                    <label for="curso">Curso que faz</label>
+                    <input type="text" id="curso" placeholder="Nome do curso" required>
+    
+                    <label for="cm">Semestre</label>
+                    <select name="tamanho" id="cm" required>
+                        <option value="primeiro">1 semestre</option>
+                        <option value="segundo">2 semestre</option>
+                        <option value="terceiro">3 semestre</option>
+                        <option value="quarto">4 semestre</option>
+                        <option value="quinto">5 semestre</option>
+                        <option value="sexto">6 semestre</option>
+                        <option value="setimo">7 semestre</option>
+                        <option value="oitavo">8 semestre</option>
+                        <option value="nono">9 semestre</option>
+                        <option value="decimo">10 semestre</option>
+                    </select>
+    
+                    <label for="descricao">Descrição de apartamento que desejaria</label>
+                    <textarea id="descricao" cols="30" rows="10" required></textarea>
+    
+                    <fieldset>
+                        <legend>Tem depedencia pedentes??</legend>
+                        <input type="radio" id="local-sim" name="contato" checked>
+                        <label for="local-sim" class="label-inline">Sim</label>
+    
+                        <input type="radio" id="local-nao" name="contato">
+                        <label for="local-nao" class="label-inline">Não</label>
+                    </fieldset>
+    
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+</body>
+</html>

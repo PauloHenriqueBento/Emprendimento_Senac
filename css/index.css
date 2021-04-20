@@ -1,0 +1,101 @@
+
+.banner{
+    margin-top: 75px;
+    width: 100%;
+    height: 380px;
+    background: url(/img/banner01.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.introducao{
+    margin-top: 30px;
+}
+
+.introducao p strong{
+    color: #004a8d;
+}
+
+/*Espaço exemplo*/
+
+.comodo{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.comodo_img{
+    width: 50%;
+    display: inline-block;
+}
+
+.comodo_img img{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.comodo_texto{
+    display: inline-block;
+    width: 49%;
+    justify-items: center;
+    vertical-align: top;
+}
+
+.comodo_texto h3{
+    text-align: center;
+}
+
+.comodo_texto p{
+    width: 100%;
+    padding: 0 30px;
+}
+
+/*Parte de contato*/
+.entre_contato{
+    margin-top: 60px;
+}
+
+
+.icons{
+    margin: 0px auto;
+}
+
+.icon_lista{
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    padding: 5px;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.icon_lista p{
+    font-size: 16px;
+}
+
+.icon{
+    border-radius: 10px;
+}
+
+.icon_tamanho{
+    width: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+#mensagem{
+    background: #aa3c5c;   
+}
+#ponto{
+    background: #f3aa3c; 
+}
+#calendario{
+    background: #30b082;
+}
+#like{
+    background: #7c60bd; 
+}
+
+.icons .btn{
+    text-align: center;
+    margin-bottom: 30px;
+}

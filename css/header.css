@@ -1,0 +1,39 @@
+header{
+    background: #fff;
+}
+
+.bar{
+    padding: 6px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background:#fff;
+    box-shadow: .5px .5px 3px rgb(172, 172, 172);
+}
+
+header .container a{
+    display: inline-block;
+}
+
+.logo{
+    width: 90px;
+    height: 60px;
+}
+
+header .container nav{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+header .container nav a{
+    color: #7d8597;
+    text-transform: uppercase;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+header .container nav a:hover{
+    color: #001233;
+    text-decoration: underline;
+}
+
